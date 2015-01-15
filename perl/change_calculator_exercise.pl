@@ -5,7 +5,7 @@ use warnings;
 use feature 'say';
 
 my $money = shift;
-my @billz = ( 100000, 10000, 5000, 1000, 100, 50, 20, 10, 5, 2, 1 );
+my @billz = ( 100000, 10000, 5000, 1000, 500, 100, 50, 20, 10, 5, 2, 1 );
 my %prezz = (
                 100000  => 'Wilson',
                 10000   => 'Chase',
