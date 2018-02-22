@@ -1,0 +1,38 @@
+<html>
+<head>
+        <style>
+                .bar-graph {
+                        width: 100px;
+                        height: 9px;
+                        display: flex;
+                        flex-drection: row;
+                        flex-wrap: nowrap;
+                }
+                .bars {
+                        height: 9px;
+                        margin: 0px;
+                        display: inline-block;
+                        position: relative;
+                        vertical-align: baseline;
+                        width: 0px;
+                }
+                .passed-bar {
+                        order: 1;
+                        background-color: green;
+                }       
+                .failed-bar {
+                        order: 2;
+                        background-color: red;
+                }       
+        </style> 
+</head> 
+<body> 
+
+<div class="bar-graph">
+        <!-- Update the flexbox grow numbers with your units for the stacked bar graph. -->
+        <div style="flex-grow: 300;" class="bars passed-bar"></div><!--
+        --><div style="flex-grow: 1000;" class="bars failed-bar"></div>
+</div> 
+
+</body> 
+</html> 
